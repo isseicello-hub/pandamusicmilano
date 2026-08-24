@@ -324,3 +324,6 @@ footer {
   max-height: 22px!important;
   display: block!important;
 }
+@media (max-width: 768px){
+  .prezzi-offerta-grid{grid-template-columns:1fr!important; max-width:360px!important;}
+}
