@@ -262,3 +262,31 @@ footer {
   object-fit: contain;
   margin-bottom: 15px;
 }
+/* FIX PANDA GIF */
+#strumenti .strumenti-grid, .strumenti-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 30px !important;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.strumento-card {
+  text-align: center !important;
+  padding: 20px !important;
+}
+
+.panda-gif {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin: 0 auto 15px auto !important;
+}
+
+/* su mobile diventa 1 colonna */
+@media (max-width: 768px) {
+  #strumenti .strumenti-grid, .strumenti-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
