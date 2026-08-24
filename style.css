@@ -91,7 +91,7 @@ nav ul li a:hover {
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('keynote.jpeg');
-    background-size: 115% auto;
+    background-size: 110% auto;
     background-position: center top;
     background-repeat: no-repeat;
     display: flex;
