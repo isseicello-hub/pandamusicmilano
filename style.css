@@ -223,3 +223,12 @@ footer {
         font-size: 2.5rem;
     }
 }
+.prezzi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; }
+.prezzi-card { background: #fff; border: 1px solid #ddd; }
+.prezzi-header { background: #ece8de; padding: 18px 20px; font-family: serif; font-size: 22px; border-bottom: 1px solid #ddd; }
+.prezzi-body { padding: 18px 20px; }
+.prezzi-label { color: #7a2a2a; font-size: 11px; letter-spacing: 1.5px; font-weight: 700; margin-bottom: 12px; }
+.prezzi-row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 14px; color: #555; }
+.prezzi-row strong { color: #111; font-weight: 700; }
+
+@media (max-width: 900px) { .prezzi-grid { grid-template-columns: 1fr; } }
