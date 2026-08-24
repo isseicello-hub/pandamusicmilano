@@ -145,12 +145,14 @@
                     <p>Email: <a href="mailto:pandamusicmilano@gmail.com">pandamusicmilano@gmail.com</a></p>
                 </div>
                 <div class="contact-form">
-                    <form>
-                        <input type="text" placeholder="Nome" required>
-                        <input type="email" placeholder="Email" required>
-                        <textarea placeholder="Il tuo messaggio" rows="5" required></textarea>
-                        <button type="submit" class="btn">Invia Messaggio</button>
-                    </form>
+                    <form action="https://formsubmit.co/pandamusicmilano@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Nome" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Il tuo messaggio" rows="5" required></textarea>
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="Nuovo messaggio da Panda Music Milano">
+  <button type="submit" class="btn">Invia Messaggio</button>
+</form>
                 </div>
             </div>
         </div>
