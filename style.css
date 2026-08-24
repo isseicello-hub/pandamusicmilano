@@ -291,7 +291,36 @@ footer {
   }
 }
 
-.seguici-su-contatti{display:flex;align-items:center;gap:14px;margin-top:22px;padding-top:16px;border-top:1px solid #eee}
-.seguici-su-contatti span{font-weight:700;color:#111;text-transform:uppercase;font-size:14px}
-.seguici-su-contatti a svg{width:28px;height:28px;transition:.2s}
-.seguici-su-contatti a:hover svg{transform:scale(1.15)}
+/* FIX ICONE PICCOLE - Seguici su */
+.seguici-su-contatti {
+  display: flex!important;
+  flex-direction: row!important;
+  align-items: center!important;
+  gap: 10px!important;
+  margin-top: 12px!important;
+  padding-top: 0!important;
+  border-top: none!important;
+}
+
+.seguici-su-contatti span {
+  font-size: inherit!important;
+  font-weight: bold!important; /* uguale a Contatti */
+  font-family: inherit!important;
+  color: #000!important;
+  margin: 0!important;
+}
+
+.seguici-su-contatti a {
+  width: 22px!important;
+  height: 22px!important;
+  display: inline-block!important;
+  line-height: 0!important;
+}
+
+.seguici-su-contatti a svg {
+  width: 22px!important;
+  height: 22px!important;
+  max-width: 22px!important;
+  max-height: 22px!important;
+  display: block!important;
+}
