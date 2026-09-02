@@ -327,3 +327,24 @@ footer {
 @media (max-width: 768px){
   .prezzi-offerta-grid{grid-template-columns:1fr!important; max-width:360px!important;}
 }
+/* Fix bandierine lingua */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.lang-switch {
+  display: flex;
+  gap: 6px;
+  margin-left: 15px;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+  }
+  .lang-switch {
+    position: static;
+  }
+}
